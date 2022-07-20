@@ -1,0 +1,71 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <link rel="stylesheet" href="index.css">
+        
+        <!-- VT323 google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+        <style>
+        .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+        }
+        
+</style>
+        
+    </head>
+    <body>
+        
+        <div class="scoreboard">
+            
+    
+        <!-- homeside elements -->
+            <div id="home-side">
+                <h1 class="side-title">HOME</h1>
+                <h1 class="side-score" id="home-score">0</h1>
+                <button class="plus-btn" id="home-one">+1</button>
+                <button class="plus-btn" id="home-two">+2</button>
+                <button class="plus-btn" id="home-three">+3</button>
+                <h2 class="fouls">Fouls: <span id="home-foul-count">0</span></h2>
+                <button class="plus-btn" id="home-foul-one">+1</button>
+            </div>
+        
+            <div id="clock-section">
+                <h1 id="clock">12:00</h1>
+                <h2 >Period: <span id="period">1</span></h2>
+                <button class="plus-btn" id="period-one">+1</button>
+                <br></br>
+                <span class="material-symbols-outlined">sports_basketball</span>
+                <br></br>
+                <button class="reset-btn" id="start-btn">START GAME</button>
+                <button class="reset-btn" id="pause-btn">PAUSE GAME</button>
+                <br>
+                <button class="reset-btn" id="new-btn">NEW GAME</button>
+            </div>
+            
+        
+        <!-- awayside elements -->
+            <div id="away-side">
+                <h1 class="side-title">AWAY</h1>
+                <h1 class="side-score" id="away-score">0</h1>
+                <button class="plus-btn" id="away-one">+1</button>
+                <button class="plus-btn" id="away-two">+2</button>
+                <button class="plus-btn" id="away-three">+3</button>
+                <h2 class="fouls">Fouls: <span id="away-foul-count">0</span></h2>
+                <button class="plus-btn" id="away-foul-one">+1</button>
+            </div>
+           
+        
+        </div>
+        
+        <script src="index.pack.js"></script>
+    </body>
+</html>
