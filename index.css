@@ -81,3 +81,8 @@ html, body {
     color: #cad4d8;
     background: #2e3440;
 }
+
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) { }
